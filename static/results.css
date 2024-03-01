@@ -1,0 +1,75 @@
+.result-container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 0;
+    color: #77d5cb;
+    font-size: 25px;
+    text-align: center;
+}
+
+.patient-details-section {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.patient-details-section h3 {
+    color: #77d5cb;
+}
+
+.symptoms-section {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.symptoms-section h3 {
+    color: #77d5cb;
+}
+
+.symptoms-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.symptoms-list li {
+    background-color: #dbd7d7;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.prediction-section {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.prediction-section h3 {
+    color: #77d5cb;
+}
+
+#generate-report-btn {
+    background-color: #77d5cb;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+}
+
+#generate-report-btn:hover {
+    opacity: 0.9;
+}

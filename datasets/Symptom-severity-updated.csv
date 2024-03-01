@@ -1,0 +1,134 @@
+,Symptom,weight,Name
+0,itching,1,Itching
+1,skin_rash,3,Skin rash
+2,nodal_skin_eruptions,4,Nodal skin eruptions
+3,continuous_sneezing,4,Continuous sneezing
+4,shivering,5,Shivering
+5,chills,3,Chills
+6,joint_pain,3,Joint pain
+7,stomach_pain,5,Stomach pain
+8,acidity,3,Acidity
+9,ulcers_on_tongue,4,Ulcers on tongue
+10,muscle_wasting,3,Muscle wasting
+11,vomiting,5,Vomiting
+12,burning_micturition,6,Burning micturition
+13,spotting_urination,6,Spotting urination
+14,fatigue,4,Fatigue
+15,weight_gain,3,Weight gain
+16,anxiety,4,Anxiety
+17,cold_hands_and_feets,5,Cold hands and feets
+18,mood_swings,3,Mood swings
+19,weight_loss,3,Weight loss
+20,restlessness,5,Restlessness
+21,lethargy,2,Lethargy
+22,patches_in_throat,6,Patches in throat
+23,irregular_sugar_level,5,Irregular sugar level
+24,cough,4,Cough
+25,high_fever,7,High fever
+26,sunken_eyes,3,Sunken eyes
+27,breathlessness,4,Breathlessness
+28,sweating,3,Sweating
+29,dehydration,4,Dehydration
+30,indigestion,5,Indigestion
+31,headache,3,Headache
+32,yellowish_skin,3,Yellowish skin
+33,dark_urine,4,Dark urine
+34,nausea,5,Nausea
+35,loss_of_appetite,4,Loss of appetite
+36,pain_behind_the_eyes,4,Pain behind the eyes
+37,back_pain,3,Back pain
+38,constipation,4,Constipation
+39,abdominal_pain,4,Abdominal pain
+40,diarrhoea,6,Diarrhoea
+41,mild_fever,5,Mild fever
+42,yellow_urine,4,Yellow urine
+43,yellowing_of_eyes,4,Yellowing of eyes
+44,acute_liver_failure,6,Acute liver failure
+45,fluid_overload,6,Fluid overload
+46,swelling_of_stomach,7,Swelling of stomach
+47,swelled_lymph_nodes,6,Swelled lymph nodes
+48,malaise,6,Malaise
+49,blurred_and_distorted_vision,5,Blurred and distorted vision
+50,phlegm,5,Phlegm
+51,throat_irritation,4,Throat irritation
+52,redness_of_eyes,5,Redness of eyes
+53,sinus_pressure,4,Sinus pressure
+54,runny_nose,5,Runny nose
+55,congestion,5,Congestion
+56,chest_pain,7,Chest pain
+57,weakness_in_limbs,7,Weakness in limbs
+58,fast_heart_rate,5,Fast heart rate
+59,pain_during_bowel_movements,5,Pain during bowel movements
+60,pain_in_anal_region,6,Pain in anal region
+61,bloody_stool,5,Bloody stool
+62,irritation_in_anus,6,Irritation in anus
+63,neck_pain,5,Neck pain
+64,dizziness,4,Dizziness
+65,cramps,4,Cramps
+66,bruising,4,Bruising
+67,obesity,4,Obesity
+68,swollen_legs,5,Swollen legs
+69,swollen_blood_vessels,5,Swollen blood vessels
+70,puffy_face_and_eyes,5,Puffy face and eyes
+71,enlarged_thyroid,6,Enlarged thyroid
+72,brittle_nails,5,Brittle nails
+73,swollen_extremeties,5,Swollen extremeties
+74,excessive_hunger,4,Excessive hunger
+75,extra_marital_contacts,5,Extra marital contacts
+76,drying_and_tingling_lips,4,Drying and tingling lips
+77,slurred_speech,4,Slurred speech
+78,knee_pain,3,Knee pain
+79,hip_joint_pain,2,Hip joint pain
+80,muscle_weakness,2,Muscle weakness
+81,stiff_neck,4,Stiff neck
+82,swelling_joints,5,Swelling joints
+83,movement_stiffness,5,Movement stiffness
+84,spinning_movements,6,Spinning movements
+85,loss_of_balance,4,Loss of balance
+86,unsteadiness,4,Unsteadiness
+87,weakness_of_one_body_side,4,Weakness of one body side
+88,loss_of_smell,3,Loss of smell
+89,bladder_discomfort,4,Bladder discomfort
+90,foul_smell_ofurine,5,Foul smell ofurine
+91,continuous_feel_of_urine,6,Continuous feel of urine
+92,passage_of_gases,5,Passage of gases
+93,internal_itching,4,Internal itching
+94,toxic_look_(typhos),5,Toxic look (typhos)
+95,depression,3,Depression
+96,irritability,2,Irritability
+97,muscle_pain,2,Muscle pain
+98,altered_sensorium,2,Altered sensorium
+99,red_spots_over_body,3,Red spots over body
+100,belly_pain,4,Belly pain
+101,abnormal_menstruation,6,Abnormal menstruation
+102,dischromic_patches,6,Dischromic patches
+103,watering_from_eyes,4,Watering from eyes
+104,increased_appetite,5,Increased appetite
+105,polyuria,4,Polyuria
+106,family_history,5,Family history
+107,mucoid_sputum,4,Mucoid sputum
+108,rusty_sputum,4,Rusty sputum
+109,lack_of_concentration,3,Lack of concentration
+110,visual_disturbances,3,Visual disturbances
+111,receiving_blood_transfusion,5,Receiving blood transfusion
+112,receiving_unsterile_injections,2,Receiving unsterile injections
+113,coma,7,Coma
+114,stomach_bleeding,6,Stomach bleeding
+115,distention_of_abdomen,4,Distention of abdomen
+116,history_of_alcohol_consumption,5,History of alcohol consumption
+117,fluid_overload,4,Fluid overload
+118,blood_in_sputum,5,Blood in sputum
+119,prominent_veins_on_calf,6,Prominent veins on calf
+120,palpitations,4,Palpitations
+121,painful_walking,2,Painful walking
+122,pus_filled_pimples,2,Pus filled pimples
+123,blackheads,2,Blackheads
+124,scurring,2,Scurring
+125,skin_peeling,3,Skin peeling
+126,silver_like_dusting,2,Silver like dusting
+127,small_dents_in_nails,2,Small dents in nails
+128,inflammatory_nails,2,Inflammatory nails
+129,blister,4,Blister
+130,red_sore_around_nose,2,Red sore around nose
+131,yellow_crust_ooze,3,Yellow crust ooze
+132,prognosis,5,Prognosis

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SymptomGuard - Disease Predicteor</title>
+    <link rel="stylesheet" href="../static/style.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <h1 class="logo">SymptomGuard - Disease Predicter</h1>
+    </div>
+
+    <div class="form-container">
+      <h2 class="info"></h2>
+          <form method="post" action="/results">
+        <div class="top-section">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+
+            <div class="form-group">
+              <label for="age">Age:</label>
+              <input type="number" id="age" name="age" required />
+            </div>
+
+
+                <div class="form-group">
+                  <label for="gender">Gender:</label>
+                  <select id="gender" name="gender" required>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                  </select>
+                </div>
+            </div>
+
+{#        <div class="form-group">#}
+{#          <label for="symptoms">Symptoms:</label>#}
+{#          <select id="symptoms" name="symptoms[]" multiple required>#}
+{#            <option value="fever">Fever</option>#}
+{#            <option value="cough">Cough</option>#}
+{#            <option value="headache">Headache</option>#}
+{#            <option value="fatigue">Fatigue</option>#}
+{#            <option value="itching">Itching</option>#}
+{#            <option value="fungal infection">Fungal Infection</option>#}
+{#            <option value="allergy">Allergy</option>#}
+{#            <option value="diabetes">Diabetes</option>#}
+{#            <option value="aids">AIDS</option>#}
+{#            <option value="migrane">Migrane</option>#}
+{#            <option value="malaria">Malaria</option>#}
+{#            <option value="chicken pox">Chicken Pox</option>#}
+{#            <option value="heart attack">Heart Attack</option>#}
+{#            <option value="common cold">Common Cold</option>#}
+{#          </select>#}
+{#        </div>#}
+          <div class="form-group">
+              <label for="search-box">Symptoms:</label>
+              <div id="search-box">
+              <input type="text" id="search-input" placeholder="Search...">
+                </div>
+
+                <div id="search-results" hidden="hidden"></div>
+
+                <div id="selected-items">
+                  <label>Selected Items:</label>
+                  <ul id="selected-list"></ul>
+                </div>
+          </div>
+          <input id="passer" value="hello" type="hidden" name="passer">
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  <script src="../static/scripts.js"></script>
+  </body>
+</html>

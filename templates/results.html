@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Health Assessment Result</title>
+    <link rel="stylesheet" href="../static/style.css" />
+    <link rel="stylesheet" href="../static/results.css" />
+    <!-- Link to your CSS file -->
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <h1 class="logo">SymptomGuard - Disease Predicter</h1>
+      </div>
+    </header>
+    <div class="result-container">
+      <h2>Health Prediction Result</h2>
+
+      <section class="patient-details-section">
+        <h3>Patient Details</h3>
+        <p><strong>Name:</strong> {{ data["name"] }}</p>
+        <p><strong>Age:</strong> {{ data["age"] }}</p>
+        <p><strong>Gender:</strong> {{ data["gender"] }}</p>
+      </section>
+      <section class="symptoms-section">
+        <h3>Symptoms</h3>
+        <ul class="symptoms-list">
+            {% for symptom in data["symptoms"] %}
+              <li>{{ symptom }}</li>
+            {% endfor %}
+        </ul>
+      </section>
+      <section class="prediction-section">
+        <h3>Result of Prediction</h3>
+        <h4>Possible Condition:</h4>
+        <p>
+          {{ data["prediction"][0] }}
+        </p>
+        <h5>Description:</h5>
+        <p>
+          {{ data["prediction"][1] }}
+        </p>
+        <h5>Treatments:</h5>
+        <p>
+          <ul>
+          {% for treatment in data["prediction"][2] %}
+          <li>{{ treatment }}</li>
+          {% endfor %}
+            </ul>
+        </p>
+      </section>
+
+      <button id="generate-report-btn">Generate PDF Report</button>
+    </div>
+
+    <script>
+        // Function to open the print dialog
+        function openPrintDialog() {
+            window.print();
+        }
+
+        // Add event listener to the "Generate PDF Report" button
+        document.getElementById("generate-report-btn").addEventListener("click", openPrintDialog);
+    </script>
+  </body>
+</html>
