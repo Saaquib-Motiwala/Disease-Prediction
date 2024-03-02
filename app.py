@@ -4,6 +4,7 @@ from prediction_model import predictor
 
 app = Flask(__name__)
 
+
 @app.route('/')
 @app.route('/home')
 def home():  # put application's code here

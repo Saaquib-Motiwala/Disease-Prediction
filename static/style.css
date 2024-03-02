@@ -122,14 +122,14 @@
         background-color: #77d5cb;
       }
 
-      ul{
+      #selected-items{
           display: flex;
           flex-direction: row;
           flex-wrap: wrap;
           gap: 10px;
       }
 
-      li{
+      #selected-items > li{
           text-decoration: none;
           list-style: none;
           padding: 10px;

@@ -14,6 +14,16 @@ h2 {
     text-align: center;
 }
 
+.heading-text{
+    font-size: 20px;
+}
+
+.info-text{
+    display: flex;
+    max-width: 90%;
+    margin-left: 50px;
+}
+
 .patient-details-section {
     border-bottom: 1px solid #ddd;
     padding-bottom: 20px;
@@ -57,6 +67,18 @@ h2 {
 
 .prediction-section h3 {
     color: #77d5cb;
+}
+
+.treatment-list{
+    margin-top: -40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.treatment-list > li{
+    text-decoration: none;
+    padding: 10px 0;
+    font-size: 18px;
 }
 
 #generate-report-btn {

@@ -11,7 +11,7 @@
   <body>
     <header>
       <div class="navbar">
-        <h1 class="logo">SymptomGuard - Disease Predicter</h1>
+        <h1 class="logo">SymptomGuard - Disease Predictor</h1>
       </div>
     </header>
     <div class="result-container">
@@ -25,7 +25,7 @@
       </section>
       <section class="symptoms-section">
         <h3>Symptoms</h3>
-        <ul class="symptoms-list">
+        <ul class="symptoms-list" id="selected-items">
             {% for symptom in data["symptoms"] %}
               <li>{{ symptom }}</li>
             {% endfor %}
@@ -33,17 +33,17 @@
       </section>
       <section class="prediction-section">
         <h3>Result of Prediction</h3>
-        <h4>Possible Condition:</h4>
-        <p>
+        <h5 class="heading-text">Possible Condition:</h5>
+        <p class="info-text">
           {{ data["prediction"][0] }}
         </p>
-        <h5>Description:</h5>
-        <p>
+        <h5 class="heading-text">Description:</h5>
+        <p class="info-text">
           {{ data["prediction"][1] }}
         </p>
-        <h5>Treatments:</h5>
-        <p>
-          <ul>
+        <h5 class="heading-text">Treatments:</h5>
+        <p class="info-text">
+          <ul class="treatment-list">
           {% for treatment in data["prediction"][2] %}
           <li>{{ treatment }}</li>
           {% endfor %}
