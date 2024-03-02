@@ -1,11 +1,12 @@
 from flask import Flask
 from flask import render_template, request
-from prediction_model.predictor import predictor
+from prediction_model import predictor
 
 app = Flask(__name__)
 
 @app.route('/')
-def hello_world():  # put application's code here
+@app.route('/home')
+def home():  # put application's code here
     return render_template("home.html")
 
 
@@ -16,7 +17,7 @@ def results():
         age = request.form.get("age")
         gender = request.form.get("gender")
         symptoms = list(request.form.get("passer").split(","))
-        prediction = predictor(symptoms)
+        prediction = predictor.predictor(symptoms)
         data = {
             "name": name,
             "age": age,

@@ -6,10 +6,10 @@ import joblib
 def predictor(user_symptoms):
     user_list = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     # df1 = pd.read_csv('../dataset/Symptom-severity-updated.csv')
-    df1 = pd.read_csv('../Symptom-severity-updated.csv')
-    description = pd.read_csv("../datasets/symptom_Description.csv")
-    precaution = pd.read_csv("../datasets/symptom_precaution.csv")
-    loaded_rf = joblib.load("random_forest_new.joblib")
+    loaded_rf = joblib.load("prediction_model/random_forest_new.joblib")
+    df1 = pd.read_csv('datasets/Symptom-severity-updated.csv')
+    description = pd.read_csv("datasets/symptom_Description.csv")
+    precaution = pd.read_csv("datasets/symptom_precaution.csv")
 
     count = 0
     for i in user_symptoms:

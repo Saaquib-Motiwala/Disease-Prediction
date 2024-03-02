@@ -73,3 +73,17 @@ h2 {
 #generate-report-btn:hover {
     opacity: 0.9;
 }
+
+#back-link {
+  display: flex;
+    justify-content: center;
+  margin-top: 20px; /* Adjust as needed */
+  text-decoration: none;
+  color: #007bff; /* Change color as needed */
+  font-size: 16px; /* Adjust font size as needed */
+    padding: 20px;
+}
+
+#back-link:hover {
+  text-decoration: underline;
+}
