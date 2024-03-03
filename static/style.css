@@ -122,14 +122,14 @@
         background-color: #77d5cb;
       }
 
-      #selected-items{
+      #selected-items > ul{
           display: flex;
           flex-direction: row;
           flex-wrap: wrap;
           gap: 10px;
       }
 
-      #selected-items > li{
+      #selected-items > ul> li{
           text-decoration: none;
           list-style: none;
           padding: 10px;
@@ -138,6 +138,8 @@
           background: #cccccc;
           font-size: 15px;
       }
+
+
 
       @media screen and (max-width: 768px) {
         .form-container {
